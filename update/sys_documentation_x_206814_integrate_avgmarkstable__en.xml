@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="AvgMarksTable" language="en" table="x_206814_integrate_avgmarkstable">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>AvgMarksTable</label>
+            <language>en</language>
+            <name>x_206814_integrate_avgmarkstable</name>
+            <plural>AvgMarksTables</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-08 10:03:28</sys_created_on>
+            <sys_id>b987c661dbf3130028ed5608689619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>AvgMarksTable</sys_name>
+            <sys_package display_value="IntegratedApp" source="x_206814_integrate">3564016cdbe3130028ed56086896191a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IntegratedApp">3564016cdbe3130028ed56086896191a</sys_scope>
+            <sys_update_name>sys_documentation_x_206814_integrate_avgmarkstable__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-08 10:03:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

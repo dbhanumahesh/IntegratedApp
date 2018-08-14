@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description>called by script include</description>
+        <event_name>x_206814_integrate.MyEvent</event_name>
+        <fired_by>script include</fired_by>
+        <queue/>
+        <suffix>MyEvent</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-31 16:41:27</sys_created_on>
+        <sys_id>3f545207dbef130028ed5608689619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_206814_integrate.MyEvent</sys_name>
+        <sys_package display_value="IntegratedApp" source="x_206814_integrate">3564016cdbe3130028ed56086896191a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntegratedApp">3564016cdbe3130028ed56086896191a</sys_scope>
+        <sys_update_name>sysevent_register_3f545207dbef130028ed5608689619f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-31 16:41:27</sys_updated_on>
+        <table>x_206814_integrate_marksdetails</table>
+    </sysevent_register>
+</record_update>

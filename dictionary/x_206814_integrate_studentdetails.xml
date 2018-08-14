@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" label="StudentDetails" max_length="40" name="x_206814_integrate_studentdetails" type="collection">
+        <element display="true" label="Rollno" mandatory="true" max_length="40" name="rollno" type="string"/>
+        <element choice="1" label="Studbranch" mandatory="true" max_length="40" name="studbranch" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CSE" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="IT" sequence="1" value="it"/>
+                <element inactive_on_update="false" label="ECE" sequence="2" value="ece"/>
+            </choice>
+        </element>
+        <element label="Studname" mandatory="true" max_length="40" name="studname" type="string"/>
+        <element label="studpwd" max_length="40" name="studpwd" type="password"/>
+        <element label="studregu" max_length="40" name="studregu" type="string"/>
+        <element choice="1" label="Studsection" mandatory="true" max_length="40" name="studsection" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="A" sequence="0" value="a"/>
+                <element inactive_on_update="false" label="B" sequence="1" value="b"/>
+                <element inactive_on_update="false" label="C" sequence="2" value="c"/>
+                <element inactive_on_update="false" label="D" sequence="3" value="d"/>
+            </choice>
+        </element>
+        <element choice="1" label="Studsem" mandatory="true" max_length="40" name="studsem" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" label="Studyear" mandatory="true" max_length="40" name="studyear" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>false</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>bhninboundemail</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+
+	// Implement email action here
+
+})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-07 11:49:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f9951d15db77530028ed560868961984</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>bhninboundemail</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IntegratedApp" source="x_206814_integrate">3564016cdbe3130028ed56086896191a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntegratedApp">3564016cdbe3130028ed56086896191a</sys_scope>
+        <sys_update_name>sysevent_in_email_action_f9951d15db77530028ed560868961984</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-07 12:15:44</sys_updated_on>
+        <table>x_206814_integrate_studentdetails</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

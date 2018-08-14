@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="OfficeSuppliesTable" max_length="40" name="x_206814_integrate_officesuppliestable" type="collection">
+        <element label="Item" max_length="40" name="item" type="string"/>
+        <element label="OrderDate" max_length="40" name="orderdate" type="glide_date"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+        <element label="Rep" max_length="40" name="rep" type="string"/>
+        <element label="UnitPrice" max_length="40" name="unitprice" type="float"/>
+        <element label="Units" max_length="40" name="units" type="integer"/>
+    </element>
+</database>

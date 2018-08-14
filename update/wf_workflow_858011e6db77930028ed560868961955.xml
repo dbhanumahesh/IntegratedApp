@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"activities":{},"ends":["418011e6db77930028ed560868961957"],"stages":{},"subflows":[]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description>find sum</description>
+        <expected_sequences>018011e6db77930028ed560868961956,342111e6db77930028ed560868961928,418011e6db77930028ed560868961957</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>018011e6db77930028ed560868961956,342111e6db77930028ed560868961928,418011e6db77930028ed560868961957</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>TotalMarks</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">018011e6db77930028ed560868961956</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-11 08:37:03</sys_created_on>
+        <sys_id>9440d526db77930028ed5608689619ab</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-11 08:44:48</sys_updated_on>
+        <table>x_206814_integrate_avgmarkstable</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="TotalMarks">858011e6db77930028ed560868961955</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description>find sum</description>
+        <name>TotalMarks</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-11 08:37:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>858011e6db77930028ed560868961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TotalMarks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IntegratedApp" source="x_206814_integrate">3564016cdbe3130028ed56086896191a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntegratedApp">3564016cdbe3130028ed56086896191a</sys_scope>
+        <sys_update_name>wf_workflow_858011e6db77930028ed560868961955</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-11 08:37:03</sys_updated_on>
+        <table>x_206814_integrate_avgmarkstable</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name/>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-11 08:40:17</sys_created_on>
+        <sys_id>342111e6db77930028ed560868961928</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-11 08:40:22</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="TotalMarks">9440d526db77930028ed5608689619ab</workflow_version>
+        <x>167</x>
+        <y>50</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=342111e6db77930028ed560868961928"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>342111e6db77930028ed560868961928</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-11 08:40:17</sys_created_on>
+        <sys_id>5c415da6db77930028ed560868961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-11 08:40:17</sys_updated_on>
+        <value>sub1=10^sub2=20^sub3=30^sub4=40^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>342111e6db77930028ed560868961928</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-11 08:40:17</sys_created_on>
+        <sys_id>5c415da6db77930028ed560868961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-11 08:40:17</sys_updated_on>
+        <value>sub1=10^sub2=20^sub3=30^sub4=40^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="">342111e6db77930028ed560868961928</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-11 08:40:17</sys_created_on>
+        <sys_id>98415da6db77930028ed560868961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-11 08:40:17</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-11 08:37:03</sys_created_on>
+        <sys_id>018011e6db77930028ed560868961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-11 08:37:03</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="TotalMarks">9440d526db77930028ed5608689619ab</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=018011e6db77930028ed560868961956"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">018011e6db77930028ed560868961956</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-11 08:37:03</sys_created_on>
+        <sys_id>898011e6db77930028ed560868961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-11 08:37:03</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-11 08:37:03</sys_created_on>
+        <sys_id>418011e6db77930028ed560868961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-11 08:37:03</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="TotalMarks">9440d526db77930028ed5608689619ab</workflow_version>
+        <x>400</x>
+        <y>150</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=418011e6db77930028ed560868961957"/>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">98415da6db77930028ed560868961919</condition>
+        <from display_value="">342111e6db77930028ed560868961928</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-11 08:40:22</sys_created_on>
+        <sys_id>554111e6db77930028ed56086896196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-11 08:40:22</sys_updated_on>
+        <to display_value="End">418011e6db77930028ed560868961957</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">898011e6db77930028ed560868961956</condition>
+        <from display_value="Begin">018011e6db77930028ed560868961956</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-11 08:37:03</sys_created_on>
+        <sys_id>c58011e6db77930028ed560868961957</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-11 08:40:22</sys_updated_on>
+        <to display_value="">342111e6db77930028ed560868961928</to>
+    </wf_transition>
+    <var_dictionary action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>X</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value>20</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_x</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>X</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model_id>858011e6db77930028ed560868961955</model_id>
+        <model_table>wf_workflow</model_table>
+        <name>var__m_var_dictionary_858011e6db77930028ed560868961955</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>var_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-11 09:05:55</sys_created_on>
+        <sys_id>33f6952edb77930028ed560868961983</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>X</sys_name>
+        <sys_package display_value="IntegratedApp" source="x_206814_integrate">3564016cdbe3130028ed56086896191a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntegratedApp">3564016cdbe3130028ed56086896191a</sys_scope>
+        <sys_update_name>var_dictionary_33f6952edb77930028ed560868961983</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-11 09:05:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </var_dictionary>
+    <sys_documentation element="u_x" language="en" table="var__m_var_dictionary_858011e6db77930028ed560868961955">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_x</element>
+            <help/>
+            <hint/>
+            <label>X</label>
+            <language>en</language>
+            <name>var__m_var_dictionary_858011e6db77930028ed560868961955</name>
+            <plural>X</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-11 09:05:55</sys_created_on>
+            <sys_id>bf17d52edb77930028ed5608689619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>X</sys_name>
+            <sys_package display_value="IntegratedApp" source="x_206814_integrate">3564016cdbe3130028ed56086896191a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IntegratedApp">3564016cdbe3130028ed56086896191a</sys_scope>
+            <sys_update_name>sys_documentation_var__m_var_dictionary_858011e6db77930028ed560868961955_u_x_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-11 09:05:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-11 08:37:03</sys_created_on>
+        <sys_id>cd8011e6db77930028ed560868961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-11 08:37:03</sys_updated_on>
+        <workflow_version display_value="TotalMarks">9440d526db77930028ed5608689619ab</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=858011e6db77930028ed560868961955^sys_id!=9440d526db77930028ed5608689619ab">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

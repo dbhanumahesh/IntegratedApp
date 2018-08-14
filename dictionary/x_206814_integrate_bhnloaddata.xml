@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="bhnloaddata" max_length="40" name="x_206814_integrate_bhnloaddata" type="collection">
+        <element attributes="import_attribute_name=Item,edge_encryption_enabled=true" label="Item" max_length="40" name="u_item" type="string"/>
+        <element attributes="import_attribute_name=OrderDate,edge_encryption_enabled=true" label="OrderDate" max_length="40" name="u_orderdate" type="string"/>
+        <element attributes="import_attribute_name=Region,edge_encryption_enabled=true" label="Region" max_length="40" name="u_region" type="string"/>
+        <element attributes="import_attribute_name=Rep,edge_encryption_enabled=true" label="Rep" max_length="40" name="u_rep" type="string"/>
+        <element attributes="import_attribute_name=Units,edge_encryption_enabled=true" label="Units" max_length="40" name="u_units" type="string"/>
+        <element attributes="import_attribute_name=Unit Price,edge_encryption_enabled=true" label="Unit Price" max_length="40" name="u_unit_price" type="string"/>
+    </element>
+</database>

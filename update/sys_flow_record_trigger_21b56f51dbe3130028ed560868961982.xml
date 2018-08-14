@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_record_trigger">
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_206814_integrate_marksdetails">internal&lt;0^ORinternal&gt;30^ORext&lt;0^ORext&gt;70<item endquery="false" field="internal" goto="false" newquery="false" operator="&lt;" or="false" value="0"/>
+            <item endquery="false" field="internal" goto="false" newquery="false" operator="&gt;" or="true" value="30"/>
+            <item endquery="false" field="ext" goto="false" newquery="false" operator="&lt;" or="true" value="0"/>
+            <item endquery="false" field="ext" goto="false" newquery="false" operator="&gt;" or="true" value="70"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-26 12:00:47</sys_created_on>
+        <sys_id>21b56f51dbe3130028ed560868961982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IntegratedApp" source="x_206814_integrate">3564016cdbe3130028ed56086896191a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntegratedApp">3564016cdbe3130028ed56086896191a</sys_scope>
+        <sys_update_name>sys_flow_record_trigger_21b56f51dbe3130028ed560868961982</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-26 12:00:47</sys_updated_on>
+        <table>x_206814_integrate_marksdetails</table>
+    </sys_flow_record_trigger>
+</record_update>

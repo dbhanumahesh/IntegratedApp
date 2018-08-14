@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="SubjectDetails" max_length="40" name="x_206814_integrate_subjectdetails" type="collection">
+        <element display="true" label="subcode" max_length="40" name="subcode" type="string"/>
+        <element label="subname" max_length="40" name="subname" type="string"/>
+    </element>
+</database>

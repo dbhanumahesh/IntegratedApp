@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="MarksDetails" max_length="40" name="x_206814_integrate_marksdetails" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Dummyfield" max_length="40" name="dummyfield" type="string"/>
+        <element label="external" mandatory="true" max_length="40" name="ext" type="integer"/>
+        <element label="Internal" mandatory="true" max_length="40" name="internal" type="integer"/>
+        <element label="Rollno" mandatory="true" max_length="32" name="rollno" reference="x_206814_integrate_studentdetails" type="reference"/>
+        <element label="Subcode" mandatory="true" max_length="32" name="subcode" reference="x_206814_integrate_subjectdetails" type="reference"/>
+        <element label="Total" mandatory="true" max_length="40" name="total" type="integer"/>
+        <index name="index">
+            <element name="rollno"/>
+        </index>
+        <index name="index2">
+            <element name="subcode"/>
+        </index>
+    </element>
+</database>

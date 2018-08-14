@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>used to find the total marks after entering internal and external marks in marks view</description>
+        <internal_name>findtotalmarks</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.table_name","label":"Trigger➛MarksDetails Table","reference":"x_206814_integrate_marksdetails","reference_display":"MarksDetails","type":"table_name","base_type":"table_name"},{"name":"Created or Updated_1.current","label":"Trigger➛MarksDetails Record","reference":"x_206814_integrate_marksdetails","reference_display":"MarksDetails","type":"reference","base_type":"reference"},{"name":"18891b01-db82-43f6-8112-aedce9bf5139.record","label":"1.1➛MarksDetails Record","reference":"x_206814_integrate_marksdetails","reference_display":"MarksDetails"},{"name":"18891b01-db82-43f6-8112-aedce9bf5139.table_name","label":"1.1➛MarksDetails Table","reference":"x_206814_integrate_marksdetails","reference_display":"MarksDetails"}]</label_cache>
+        <latest_snapshot>51b869cddb3f130028ed5608689619fa</latest_snapshot>
+        <master_snapshot/>
+        <name>FindTotalMarks</name>
+        <outputs/>
+        <remote_trigger_id>edcd7bb6dbab130028ed5608689619b3</remote_trigger_id>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-31 04:54:24</sys_created_on>
+        <sys_id>64147b7adbe7130028ed56086896197b</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>FindTotalMarks</sys_name>
+        <sys_package display_value="IntegratedApp" source="x_206814_integrate">3564016cdbe3130028ed56086896191a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntegratedApp">3564016cdbe3130028ed56086896191a</sys_scope>
+        <sys_update_name>sys_hub_flow_64147b7adbe7130028ed56086896197b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-08-06 18:31:53</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=64147b7adbe7130028ed56086896197b"/>
+</record_update>

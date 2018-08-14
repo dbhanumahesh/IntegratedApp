@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_206814_integrate.sum</api_name>
+        <client_callable>false</client_callable>
+        <description>this is a script include which can be called from all aplications</description>
+        <name>sum</name>
+        <script><![CDATA[function sum(int1,int2){
+	//alert('the value of int1'+int1);
+	var sum1=int1+int2;
+	gs.addInfoMessage('the sum of two numbers is'+sum1);
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-30 06:54:35</sys_created_on>
+        <sys_id>481e3a66db23130028ed560868961955</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>sum</sys_name>
+        <sys_package display_value="IntegratedApp" source="x_206814_integrate">3564016cdbe3130028ed56086896191a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="IntegratedApp">3564016cdbe3130028ed56086896191a</sys_scope>
+        <sys_update_name>sys_script_include_481e3a66db23130028ed560868961955</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-30 07:44:55</sys_updated_on>
+    </sys_script_include>
+</record_update>

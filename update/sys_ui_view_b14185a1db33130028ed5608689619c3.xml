@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>catalog_computercatalog</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-08 04:56:33</sys_created_on>
+        <sys_id>b14185a1db33130028ed5608689619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ComputerCatalog View</sys_name>
+        <sys_package display_value="IntegratedApp" source="x_206814_integrate">3564016cdbe3130028ed56086896191a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntegratedApp">3564016cdbe3130028ed56086896191a</sys_scope>
+        <sys_update_name>sys_ui_view_b14185a1db33130028ed5608689619c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-08 04:56:33</sys_updated_on>
+        <title>ComputerCatalog View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

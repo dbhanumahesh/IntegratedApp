@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AvgMarksTable" max_length="40" name="x_206814_integrate_avgmarkstable" type="collection">
+        <element label="avg" max_length="40" name="avg" type="float"/>
+        <element label="max" max_length="40" name="max" type="integer"/>
+        <element label="min" max_length="40" name="min" type="integer"/>
+        <element label="sub1" max_length="40" name="sub1" type="integer"/>
+        <element label="sub2" max_length="40" name="sub2" type="integer"/>
+        <element label="sub3" max_length="40" name="sub3" type="integer"/>
+        <element label="sub4" max_length="40" name="sub4" type="integer"/>
+        <element label="sum" max_length="40" name="sum" type="integer"/>
+    </element>
+</database>

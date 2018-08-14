@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2f3cfb76dbab130028ed5608689619ef</block>
+        <comment/>
+        <connected_to>332a5d5d-3a78-4174-a518-53e08525320c</connected_to>
+        <display_text/>
+        <flow display_value="FindTotalMarks">2dcd7bb6dbab130028ed560868961995</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-31 05:36:47</sys_created_on>
+        <sys_id>e5cd7bb6dbab130028ed5608689619aa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IntegratedApp" source="x_206814_integrate">3564016cdbe3130028ed56086896191a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntegratedApp">3564016cdbe3130028ed56086896191a</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_e5cd7bb6dbab130028ed5608689619aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-31 05:36:47</sys_updated_on>
+        <ui_id>45b3c77e-9ff9-4760-86bb-dd5ba7b51e20</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e5cd7bb6dbab130028ed5608689619aa"/>
+</record_update>

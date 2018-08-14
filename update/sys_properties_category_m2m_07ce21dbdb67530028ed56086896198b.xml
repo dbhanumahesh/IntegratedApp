@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="MyProperties">ce391957db67530028ed5608689619be</category>
+        <order>100</order>
+        <property display_value="glide.sys.date_format" name="glide.sys.date_format">24de57037f000001002b3574b0ad5187</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-01 08:29:28</sys_created_on>
+        <sys_id>07ce21dbdb67530028ed56086896198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.sys.date_format.MyProperties</sys_name>
+        <sys_package display_value="IntegratedApp" source="x_206814_integrate">3564016cdbe3130028ed56086896191a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IntegratedApp">3564016cdbe3130028ed56086896191a</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_07ce21dbdb67530028ed56086896198b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-01 08:29:28</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

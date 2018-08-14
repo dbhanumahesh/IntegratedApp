@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" extends="x_206814_integrate_testingtable" label="testing table2" max_length="40" name="x_206814_integrate_testing_table2" type="collection">
+        <element label="col3" max_length="40" name="col3" type="string"/>
+    </element>
+</database>
